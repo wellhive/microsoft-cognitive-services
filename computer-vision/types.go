@@ -6,8 +6,10 @@ import (
 	"reflect"
 )
 
+// URL to be used to as base URL for all computer vision API calls
+var URL string = "https://api.projectoxford.ai/vision/v1.0"
+
 const (
-	URL                     string = "https://api.projectoxford.ai/vision/v1.0"
 	LANG_AutoDetect         string = "unk"
 	LANG_ChineseSimplified  string = "zh-Hans"
 	LANG_ChineseTraditional string = "zh-Hant"
